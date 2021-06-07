@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Form</title>
+<link href="form.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<form action="#" method="post">
+<fieldset class="dg"> 
+<legend class="xn">Reg:</legend>
+
+<label for="fullname">Full Name:</label>
+<input type="text" name="fullname" id="fullname" placeholder="Enter Your Full Name" required><br><br>
+
+<label for="mail">E-mail:</label>
+<input type="email" name="mail" id="mail" placeholder="Enter your E-mail ID" required><br><br>
+
+<label for="password">Password:</label>
+<input type="password" name="password" id="password" placeholder="Enter Your Password" required><br><br>
+
+<label for="dob">Date of Birth:</label>
+<input type="datetime-local" name="dob" id="dob" required><br><br>
+
+<label for="gender">Gender:</label>
+<input type="radio" name="gender" id="male" value="male">
+	<label for="male">Male</label>
+<input type="radio" name="gender" id="female" value="female">
+	<label for="female">Female</label>
+<input type="radio" name="gender" id="other" value="other">
+	<label for="other">Other</label><br><br>
+
+<label for="Religion">Religion:</label>
+<select name="Religion">
+	<option value="islam" selected>Islam</option>
+	<option value="hindu">Hindu</option>
+	<option value="Other">Other</option>
+</select><br><br>
+
+
+<label for="skill">Your skill:</label>
+	<input type="checkbox" name="html" id="html" value="html">
+		<label for="html">HTML</label>
+	<input type="checkbox" name="css" id="css" value="css">
+		<label for="css">CSS</label>
+	<input type="checkbox" name="javascript" id="javascript" value="javascript">
+		<label for="javascript">JAVASCRIPT</label>
+	<input type="checkbox" name="c++" id="c++" value="c++">
+		<label for="c++">C++</label>
+<br><br>
+
+
+<label for="photo">Uplode Your Photo</label>
+<input type="file" name="photo" id="photo"><br><br>
+
+
+<label for="browser">Write Your Borwser Name</label>
+<input name="browser" id="browser" list="br"placeholder="Your browser name😍">
+<datalist id="br">
+    <option value="Internet Explorar">
+	<option value="Mozila Firefox">
+	<option value="Google Chrome">
+	<option value="Opera GX">
+	<option value="Microsoft Edge">
+	<option value="Opera Mini">
+</datalist><br><br>
+
+
+<label for="nid">NID No.</label>
+<input type="number" name="nid" id="nid"><br><br>
+
+<label for="colour">Chose Your Favarite colour</label>
+<input type="color" name="colour" id="colour"><br><br>
+
+<label for="message">Message</label><br>
+<textarea Name="message" id="message" cols="50" rows="10" placeholder="Write your comment hare"></textarea><br><br>
+
+
+<input class="bal" type="Submit" value="Send">
+<input class="bal" type="reset" value="Reset">
+</fieldset>
+</form>
+</body>
+</html>

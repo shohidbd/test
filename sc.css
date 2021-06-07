@@ -1,0 +1,30 @@
+.mh{
+    color:rgb(60, 109, 150);
+    background-color:rgb(217, 233, 247);
+    border:3px solid rgb(20, 8, 1);
+    width:40%;
+    text-align: center;
+}
+.cd{
+    width:55%;
+    height:540px;
+    border:5px solid rgb(45, 221, 154);
+}
+.bc{
+    width:40%;
+    border:5px solid rgb(45, 221, 154);
+    height:540px;
+}
+.lb{
+    color:black;
+    background-color:lightgoldenrodyellow;
+    border:5px solid rgb(45,221,154) ;
+    width:94%;
+}
+.vg{
+    color:black;
+    background-color:rgb(164, 243, 148);
+    border:5px solid rgb(45,221,154) ;
+    width:94%;
+
+}

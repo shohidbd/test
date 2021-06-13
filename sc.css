@@ -1,15 +1,27 @@
+/* Start body section*/
 body{
     background-image:url("GF1.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+/*End Body Section*/
 .mh{
     color:rgb(60, 109, 150);
     background-color:rgb(217, 233, 247);
     border:3px solid rgb(20, 8, 1);
-    text-align: center;
+    text-align:justify;
     font-family: 'Pacifico', cursive;
+}
+.jkl{
+    color:white;
+    background-color:red;
+    font-size:25px;
+    text-align: center;
+}
+.para{
+    padding: 10px;
+    word-spacing: 5px;
 }
 .cd{
     width:55%;
@@ -25,6 +37,9 @@ body{
     color:black;
     background-color:lightgoldenrodyellow;
     border:5px solid rgb(45,221,154) ;
+    border-left:20px solid dodgerblue ;
+    border-radius: 15px;
+    padding: 20px;
     width:94%;
 }
 .vg{
@@ -36,14 +51,13 @@ body{
     font-size:15px;
 
 }
-.jkl{
-    color:white;
-    background-color:red;
-    font-size:25px;
-}
+
 .haji{
     text-align: center;
     font-size:25px;
     color:beige;
     background-color: red;
+}
+.contact-para{
+    padding: 10px;
 }

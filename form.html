@@ -32,9 +32,14 @@
 
 <label for="Religion">Religion:</label>
 <select name="Religion">
-	<option value="islam" selected>Islam</option>
-	<option value="hindu">Hindu</option>
-	<option value="Other">Other</option>
+	<optgroup label="Major">
+		<option value="islam" selected>Islam</option>
+	</optgroup>
+	<optgroup label="Minor">
+		<option value="hindu">Hindu</option>
+		<option value="Buddha">Buddha</option>
+		<option value="Other">Other</option>
+	</optgroup>
 </select><br><br>
 
 
@@ -51,7 +56,7 @@
 
 
 <label for="photo">Uplode Your Photo</label>
-<input type="file" name="photo" id="photo"><br><br>
+<input type="file" name="photo" id="photo" multiple><br><br>
 
 
 <label for="browser">Write Your Borwser Name</label>

@@ -1,8 +1,15 @@
+body{
+    background-image:url("GF1.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .mh{
     color:rgb(60, 109, 150);
     background-color:rgb(217, 233, 247);
     border:3px solid rgb(20, 8, 1);
     text-align: center;
+    font-family: 'Pacifico', cursive;
 }
 .cd{
     width:55%;
@@ -25,5 +32,18 @@
     background-color:rgb(164, 243, 148);
     border:5px solid rgb(45,221,154) ;
     width:94%;
+    font-family: 'Indie Flower', cursive;
+    font-size:15px;
 
+}
+.jkl{
+    color:white;
+    background-color:red;
+    font-size:25px;
+}
+.haji{
+    text-align: center;
+    font-size:25px;
+    color:beige;
+    background-color: red;
 }
